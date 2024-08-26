@@ -1,0 +1,28 @@
+:root {
+  --color-primario: #ccc;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: var(--color-primario)
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+nav ul li{
+  list-style: none;
+  cursor: pointer;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
