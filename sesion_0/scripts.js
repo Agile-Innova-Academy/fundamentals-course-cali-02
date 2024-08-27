@@ -59,8 +59,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   console.table("Arreglo inicial", arrayProductos);
 
-
-
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     const nombre = document.getElementById("nombre").value;
