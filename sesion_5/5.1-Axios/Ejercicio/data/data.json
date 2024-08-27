@@ -250,6 +250,12 @@
       "name": "Yudith",
       "email": "y@gmail.com",
       "password": "123456"
+    },
+    {
+      "id": 2,
+      "name": "Miguel",
+      "email": "miguel@gmail.com",
+      "password": "123456"
     }
   ]
 }
