@@ -37,3 +37,9 @@
   gap: 1rem;
   justify-content: center;
 }
+
+.card-body {
+  justify-content: center;
+  display: flex;
+  gap: 1rem;
+}

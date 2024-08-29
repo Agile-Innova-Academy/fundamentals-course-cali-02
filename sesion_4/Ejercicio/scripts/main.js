@@ -1,5 +1,6 @@
 import { getData } from "../modules/getData.js"
 import { postData } from "../modules/postData.js";
+import { searchData } from "../modules/searchData.js";
 import { showCard } from "../modules/showCard.js";
 
 const heroesContainer = document.getElementById('heroesList');
@@ -11,8 +12,6 @@ document.addEventListener("DOMContentLoaded", async ()=> {
 
   showCard(heroesContainer, dataHeroes);
 })
-
-console.log(crypto.randomUUID())
 
 formulario.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -28,6 +27,22 @@ formulario.addEventListener('submit', (e) => {
   }
 
   postData(hero);
+})
 
+const searchForm = document.getElementById('searchForm')
+
+searchForm.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const dataHeroes = await getData();
+
+  const searchValue = document.getElementById('searchInput').value;
+  const filteredData = searchData(searchValue, dataHeroes);
+  
+  if (filteredData.length > 0) {
+    showCard(heroesContainer, filteredData);
+  } else {
+    heroesContainer.innerHTML = '<h2>No hay resultados para la búsqueda</h2>';
+  }
+  
 })
 

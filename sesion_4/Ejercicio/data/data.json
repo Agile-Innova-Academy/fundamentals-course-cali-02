@@ -12,7 +12,7 @@
     {
       "id": "2",
       "name": "dc-superman",
-      "superhero": "Superman",
+      "superhero": "Superman, hombre de Acero",
       "publisher": "DC Comics",
       "alter_ego": "Kal-El",
       "first_appearance": "Action Comics #1",
@@ -21,7 +21,7 @@
     {
       "id": "3",
       "name": "dc-flash",
-      "superhero": "Flash",
+      "superhero": "Flash, el más rápido",
       "publisher": "DC Comics",
       "alter_ego": "Jay Garrick",
       "first_appearance": "Flash Comics #1",
@@ -163,15 +163,6 @@
       "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576712/img_heroes/marvel-hawkeye_xea2en.jpg"
     },
     {
-      "id": "f44fac86-e939-414d-9150-314906b84076",
-      "name": "dc-batman",
-      "superhero": "Batman",
-      "publisher": "dc",
-      "alter_ego": "Bruce Wayne",
-      "first_appearance": "batman begins #1",
-      "image": "https://static.wikia.nocookie.net/comicdc/images/d/d9/Batman_jim_lee.jpg/revision/latest/scale-to-width-down/280?cb=20140708014954&path-prefix=es"
-    },
-    {
       "id": "cc94fd4f-fd58-4d29-babb-88cd995e1dc0",
       "name": "dc-batman",
       "superhero": "Batman",
@@ -197,6 +188,15 @@
       "alter_ego": "Bruce Wayne",
       "first_appearance": "batman begins #1",
       "image": "https://preview.redd.it/35o77wnx90q91.jpg?auto=webp&s=166ac6b490c6dc3316648ef2904f16c61ceee8de"
+    },
+    {
+      "id": "7ea14e1b-086e-47e9-9e71-010d99287ec9",
+      "name": "dc-doomsday",
+      "superhero": "Doomsday",
+      "publisher": "dc",
+      "alter_ego": "Davis Bloom",
+      "first_appearance": "dc-doomsday #2",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2rIdeiovv5-mhDX6fx-Bf46IIswwKjDSa5g&s"
     }
   ]
 }

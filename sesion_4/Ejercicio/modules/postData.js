@@ -1,8 +1,7 @@
 export const postData = async (data) => {
-  console.log("En post")
   try {
     await fetch (
-      'http://localhost:3003/heroes',
+      'http://localhost:3000/heroes',
       {
         method: 'POST',
         body: JSON.stringify(data),
@@ -19,6 +18,6 @@ export const postData = async (data) => {
       // }
     )
   } catch (error) {
-    console.error("Ocurrió un error al realizar la solicitud POST: " + error)
+    console.error("------>>>Ocurrió un error al realizar la solicitud POST: " + error)
   }
 }

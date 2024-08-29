@@ -1,6 +1,6 @@
 export const getData = async () => {
   try {
-    const respuesta = await fetch('http://localhost:3003/heroes')
+    const respuesta = await fetch('http://localhost:3000/heroes')
     const data = await respuesta.json();
     return data;
   } catch (error) {
